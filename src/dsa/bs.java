@@ -27,6 +27,7 @@ public class bs {
 		// TODO Auto-generated method stub
 		int[] a= {2,3,5,6};
 		int target=5;
+		int c=0;
 		int res=binarysearch(a, target);
 		System.out.println(res);
 	}
