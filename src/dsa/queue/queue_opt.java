@@ -1,4 +1,4 @@
-package dsa;
+package dsa.queue;
 
 public class queue_opt {
 	

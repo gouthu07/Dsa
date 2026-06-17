@@ -26,9 +26,24 @@ public class SLL {
 			tail=tail.next=node;
 		}
 	}
+	
+	public void traverse()
+	{
+		Node temp=head;
+		while(temp!=null)
+		{
+			System.out.println(temp.data+" ");
+			temp=temp.next;
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		SLL s=new SLL();
+		s.creation(1);
+		s.creation(2);
+		s.creation(3);
+		s.insertionSLL(1, 4);
+		s.traverse();
 	}
 
 }
