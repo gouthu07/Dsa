@@ -8,7 +8,8 @@ public class BinarySearch {
 		int high=arr.length-1;
 		while(low<=high)
 		{
-			int mid=(low+(high-low))/2;
+//			int mid=(low+(high-low))/2; it used in the case of overflow conditions -> if low have high and high also having high index so when u will add i croos the range of int
+			int mid=(low+high)/2;
 			if(arr[mid]==target)
 			{
 				return mid;
