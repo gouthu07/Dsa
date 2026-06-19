@@ -29,7 +29,6 @@ public class lcmandhcf {
 //				gcd=i;
 //			}
 //		}
-		
 		System.out.println(hcf(n1, n2));
 		System.out.println(lcm(n1, n2));
 	}
