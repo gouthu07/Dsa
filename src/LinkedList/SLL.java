@@ -1,7 +1,7 @@
 package LinkedList;
 class Node{
 	int data;
-	Node next;
+	Node next,prev;
 }
 public class SLL {
 	Node head,tail;
